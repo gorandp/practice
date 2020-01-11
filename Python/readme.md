@@ -1,7 +1,7 @@
 # Python learning
 
 Tutorials used:
-    - https://www.w3schools.com/python/
+- https://www.w3schools.com/python/
 
 # 01 - Hello world
 
