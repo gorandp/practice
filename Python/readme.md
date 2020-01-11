@@ -50,5 +50,53 @@ Setting the Specific Data Type:
 | x = bytearray(5) | bytearray |
 | x = memoryview(bytes(5)) | memoryview |
 
+# 05 - Numbers
+
+There are three numeric types in Python:
+* int
+* float
+* complex
+
+## Int
+* whole number
+* positive or negative
+* without decimals
+* of unlimited length
+
+## Float
+* "floating point number"
+* is a number, positive or negative
+* contain one or more decimals
+* can also be scientific numbers with an "e" to indicate the power of 10
+
+## Complex
+* the imaginary part is written with a "j" at the end
+* real and imaginary numbers could be int or float
+
+## Type Conversion
+* You can convert from one type to another with the int(), float(), and complex() methods
+* But you cannot convert complex numbers into another number type
+
+## Random
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
+```
+import random
+print(random.randrange(1,10))
+```
+Output:
+```
+7
+```
+It change everytime you run it.
+
+[Random module reference][3]
+
+
+
+# For future reading
+* [Random module reference][3]
+
+
 [1]: https://www.w3schools.com/python/python_datatypes.asp
 [2]: https://es.wikipedia.org/wiki/Python#Tipos_de_datos
+[3]: https://www.w3schools.com/python/module_random.asp
