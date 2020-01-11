@@ -1,5 +1,21 @@
+# Python learning
 
-**** TODO: Add summary from previous chapters ****
+Tutorials used:
+    - https://www.w3schools.com/python/
+
+# 01 - Hello world
+
+*TODO*
+
+# 02 - Syntax
+
+*TODO*
+
+# 03 - Variables
+
+*TODO*
+
+# 04 - Data Types
 
 Python has the following data types built-in by default, in these categories:
  -Text Type:      str
