@@ -99,12 +99,39 @@ Casting in python is therefore done using constructor functions:
 - float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
 - str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
+# 07 - Strings
+
+- String literals: in python are surrounded by either single quotation marks, or double quotation marks
+- Multiline Strings: you can assign a multiline string to a variable by using three (single or double) quotes. (the line breaks are inserted at the same position as in the code)
+- Strings are arrays of characters. But python doesn't have a character data type, a single char is a str of lenght 1. Square brackets are used to access elements of the string.
+- Slice syntax: return a str, selecting a range of char from another str. See "07 - Strings.py"
+- len() function: return the lenght of a str
+- To check if a str or char is present in a str, we can use the keywords "in" or "not in"
+- To concatenate two strings you can use the "+" operator
+- Escape characters: To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
+
+
+## String methods
+
+All string methods returns new values. They do not change the original string. Some of them are:
+
+- strip(): removes any whitespace from the beginning or the end
+- lower(): returns the string in lower case
+- upper(): returns the string in upper case
+- replace(): replaces a string with another string
+- split(): splits the string into substrings if it finds instances of the separator
+- format(): takes the passed arguments, formats them, and places them in the string where the placeholders {} are. Also we can add index number between brackets to give another order of placing the passed arguments.
+
+
+[String methods reference][4]
+
 
 
 # For future reading
 * [Random module reference][3]
-
+* [String methods reference][4]
 
 [1]: https://www.w3schools.com/python/python_datatypes.asp
 [2]: https://es.wikipedia.org/wiki/Python#Tipos_de_datos
 [3]: https://www.w3schools.com/python/module_random.asp
+[4]: https://www.w3schools.com/python/python_ref_string.asp
