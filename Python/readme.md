@@ -110,7 +110,6 @@ Casting in python is therefore done using constructor functions:
 - To concatenate two strings you can use the "+" operator
 - Escape characters: To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
 
-
 ## String methods
 
 All string methods returns new values. They do not change the original string. Some of them are:
@@ -122,10 +121,22 @@ All string methods returns new values. They do not change the original string. S
 - split(): splits the string into substrings if it finds instances of the separator
 - format(): takes the passed arguments, formats them, and places them in the string where the placeholders {} are. Also we can add index number between brackets to give another order of placing the passed arguments.
 
-
 [String methods reference][4]
 
+# 08 - Booleans
 
+Booleans represent one of two values: True or False.
+
+## bool()
+It allows you to evaluate any value, and give you True or False in return.
+Almost any value is evaluated to True if it has some sort of content.
+It returns false when the value is:
+- Empty strings
+- Number 0
+- Empty list, tuple, set or dicrionary.
+- Objects that are made from a class with a ```__len__``` function that returns 0 or False.
+
+Python also has many built-in functions that returns a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type.
 
 # For future reading
 * [Random module reference][3]
