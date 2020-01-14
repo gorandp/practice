@@ -138,6 +138,35 @@ It returns false when the value is:
 
 Python also has many built-in functions that returns a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type.
 
+# 09 - Operators
+Python divides the operators in the following groups:
+
+- Arithmetic operators
+    - Same as C: [```+,-,*,/,%```]
+    - New to me: [```**``` : exponentiation, ```//``` : floor division]
+- Assignment operators
+    - Same as C: [```=,+=,-=,*=,/=```]
+    - New to me: [```%=,//=,**=,&=,|=,^=,>>=,<<=```]
+- Comparison operators
+    - Same as C: [```==,!=,>,<,>=,<=```]
+- Logical operators
+    - ```and```: Returns True if both statements are true 
+    - ```or```: Returns True if one of the statements is true
+    - ```not```: Reverse the result, returns False if the result is true
+- Identity operators
+    - ```is```: Returns true if both variables are the same object
+    - ```is not```: Returns true if both variables are not the same object
+- Membership operators
+    - ```in```: Returns True if a sequence with the specified value is present in the object
+    - ```not in```: Returns True if a sequence with the specified value is not present in the object
+- Bitwise operators
+    - Known: [```&``` : AND, ```|``` : OR, ```^``` : XOR]
+    - New to me:
+        - ```~```: NOT (Inverts all the bits)
+        - ```<<```: Zero fill left shift (Shift left by pushing zeros in from the right)
+        - ```>>```: Signed right shift (Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off)
+
+
 # For future reading
 * [Random module reference][3]
 * [String methods reference][4]
