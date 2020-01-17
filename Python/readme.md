@@ -1,34 +1,37 @@
 # Python learning
 
 Tutorials used:
-- https://www.w3schools.com/python/
 
-# 01 - Hello world
+- <https://www.w3schools.com/python/>
 
-*TODO*
+## 01 - Hello world
 
-# 02 - Syntax
+- *TODO*
 
-*TODO*
+## 02 - Syntax
 
-# 03 - Variables
+- *TODO*
 
-*TODO*
+## 03 - Variables
 
-# 04 - Data Types
+- *TODO*
+
+## 04 - Data Types
 
 Sources:
+
 - [W3Schools][1]
 - [Wikipedia][2]
 
 Python has the following data types built-in by default, in these categories:
-- Text Type:      str
-- Numeric Types:  int, float, complex
+
+- Text Type: str
+- Numeric Types: int, float, complex
 - Sequence Types: list, tuple, range
-- Mapping Type: 	dict
-- Set Types: 	    set, frozenset
-- Boolean Type: 	bool
-- Binary Types: 	bytes, bytearray, memoryview
+- Mapping Type: dict
+- Set Types: set, frozenset
+- Boolean Type: bool
+- Binary Types: bytes, bytearray, memoryview
 
 type() return data type of a variable
 
@@ -50,48 +53,58 @@ Setting the Specific Data Type:
 | x = bytearray(5) | bytearray |
 | x = memoryview(bytes(5)) | memoryview |
 
-# 05 - Numbers
+## 05 - Numbers
 
 There are three numeric types in Python:
-* int
-* float
-* complex
 
-## Int
-* whole number
-* positive or negative
-* without decimals
-* of unlimited length
+- int
+- float
+- complex
 
-## Float
-* "floating point number"
-* is a number, positive or negative
-* contain one or more decimals
-* can also be scientific numbers with an "e" to indicate the power of 10
+### Int
 
-## Complex
-* the imaginary part is written with a "j" at the end
-* real and imaginary numbers could be int or float
+- whole number
+- positive or negative
+- without decimals
+- of unlimited length
 
-## Type Conversion
-* You can convert from one type to another with the int(), float(), and complex() methods
-* But you cannot convert complex numbers into another number type
+### Float
 
-## Random
+- "floating point number"
+- is a number, positive or negative
+- contain one or more decimals
+- can also be scientific numbers with an "e" to indicate the power of 10
+
+### Complex
+
+- the imaginary part is written with a "j" at the end
+- real and imaginary numbers could be int or float
+
+### Type Conversion
+
+- You can convert from one type to another with the int(), float(), and complex() methods
+- But you cannot convert complex numbers into another number type
+
+### Random
+
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
-```
+
+```python
 import random
 print(random.randrange(1,10))
 ```
+
 Output:
-```
+
+```bash
 7
 ```
+
 It change everytime you run it.
 
 [Random module reference][3]
 
-# 06 - Casting
+## 06 - Casting
 
 Casting in python is therefore done using constructor functions:
 
@@ -99,7 +112,7 @@ Casting in python is therefore done using constructor functions:
 - float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
 - str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
-# 07 - Strings
+## 07 - Strings
 
 - String literals: in python are surrounded by either single quotation marks, or double quotation marks
 - Multiline Strings: you can assign a multiline string to a variable by using three (single or double) quotes. (the line breaks are inserted at the same position as in the code)
@@ -110,7 +123,7 @@ Casting in python is therefore done using constructor functions:
 - To concatenate two strings you can use the "+" operator
 - Escape characters: To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
 
-## String methods
+### String methods
 
 All string methods returns new values. They do not change the original string. Some of them are:
 
@@ -123,14 +136,16 @@ All string methods returns new values. They do not change the original string. S
 
 [String methods reference][4]
 
-# 08 - Booleans
+## 08 - Booleans
 
 Booleans represent one of two values: True or False.
 
-## bool()
+### bool()
+
 It allows you to evaluate any value, and give you True or False in return.
 Almost any value is evaluated to True if it has some sort of content.
 It returns false when the value is:
+
 - Empty strings
 - Number 0
 - Empty list, tuple, set or dicrionary.
@@ -138,40 +153,43 @@ It returns false when the value is:
 
 Python also has many built-in functions that returns a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type.
 
-# 09 - Operators
+## 09 - Operators
+
 Python divides the operators in the following groups:
 
 - Arithmetic operators
-    - Same as C: [```+,-,*,/,%```]
-    - New to me: [```**``` : exponentiation, ```//``` : floor division]
+  - Same as C: [```+,-,*,/,%```]
+  - New to me: [```**``` : exponentiation, ```//``` : floor division]
 - Assignment operators
-    - Same as C: [```=,+=,-=,*=,/=```]
-    - New to me: [```%=,//=,**=,&=,|=,^=,>>=,<<=```]
+  - Same as C: [```=,+=,-=,*=,/=```]
+  - New to me: [```%=,//=,**=,&=,|=,^=,>>=,<<=```]
 - Comparison operators
-    - Same as C: [```==,!=,>,<,>=,<=```]
+  - Same as C: [```==,!=,>,<,>=,<=```]
 - Logical operators
-    - ```and```: Returns True if both statements are true 
-    - ```or```: Returns True if one of the statements is true
-    - ```not```: Reverse the result, returns False if the result is true
+  - ```and```: Returns True if both statements are true
+  - ```or```: Returns True if one of the statements is true
+  - ```not```: Reverse the result, returns False if the result is true
 - Identity operators
-    - ```is```: Returns true if both variables are the same object
-    - ```is not```: Returns true if both variables are not the same object
+  - ```is```: Returns true if both variables are the same object
+  - ```is not```: Returns true if both variables are not the same object
 - Membership operators
-    - ```in```: Returns True if a sequence with the specified value is present in the object
-    - ```not in```: Returns True if a sequence with the specified value is not present in the object
+  - ```in```: Returns True if a sequence with the specified value is present in the object
+  - ```not in```: Returns True if a sequence with the specified value is not present in the object
 - Bitwise operators
-    - Known: [```&``` : AND, ```|``` : OR, ```^``` : XOR]
-    - New to me:
-        - ```~```: NOT (Inverts all the bits)
-        - ```<<```: Zero fill left shift (Shift left by pushing zeros in from the right)
-        - ```>>```: Signed right shift (Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off)
+  - Known: [```&``` : AND, ```|``` : OR, ```^``` : XOR]
+  - New to me:
+    - ```~```: NOT (Inverts all the bits)
+    - ```<<```: Zero fill left shift (Shift left by pushing zeros in from the right)
+    - ```>>```: Signed right shift (Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off)
 
+## For future reading
 
-# For future reading
-* [Random module reference][3]
-* [String methods reference][4]
+- [Random module reference][3]
+- [String methods reference][4]
+- [Request module used for file download][5]
 
 [1]: https://www.w3schools.com/python/python_datatypes.asp
 [2]: https://es.wikipedia.org/wiki/Python#Tipos_de_datos
 [3]: https://www.w3schools.com/python/module_random.asp
 [4]: https://www.w3schools.com/python/python_ref_string.asp
+[5]: https://stackabuse.com/download-files-with-python/
