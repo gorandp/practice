@@ -18,15 +18,15 @@ print(temp, '\n')
 
 # Second Option
 temp = []
-match = 0
+match = False
 
 for item in myList:
     for value in temp:
         if value == item:
-            match = 1
+            match = True
             break
-    if match == 1:
-        match = 0
+    if match == False:
+        match = False
     else:
         temp.append(item)
 
