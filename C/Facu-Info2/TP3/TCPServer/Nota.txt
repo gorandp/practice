@@ -1,0 +1,4 @@
+Extra:
+- Al conectarse un nuevo usuario les avisa a todos los restantes
+- Lo mismo cuando se desconecta
+- Al cambiarse el alias algun usuario, tambien avisa al resto del cambio

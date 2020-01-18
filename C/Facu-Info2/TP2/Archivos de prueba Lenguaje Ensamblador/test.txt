@@ -1,0 +1,8 @@
+00 ? READ A	#Lee A
+01 ? READ B	#Lee B
+02 ? LOAD A	#Carga A en ACC
+03 ?   ADD   B	#Suma B al ACC
+#03 ? ADD B	#Suma B al ACC
+04 ? STORE C	#Guarda ACC en C
+05 ? WRITE C	#Muestra C en pantalla
+06 ? HALT	#Detiene el emulador
