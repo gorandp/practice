@@ -53,6 +53,8 @@ Setting the Specific Data Type:
 | x = bytearray(5) | bytearray |
 | x = memoryview(bytes(5)) | memoryview |
 
+![Alt text](04_Python_3._The_standard_type_hierarchy.png "Wikipedia: Python 3, The standard type hierarchy")
+
 ## 05 - Numbers
 
 There are three numeric types in Python:
