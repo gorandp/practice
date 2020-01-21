@@ -63,7 +63,125 @@ print(thislist)
 
 thislist.insert(0 ,"orange")
 print(thislist)
+print()
 
 # Remove item
 
-thislist.remove("")
+print("thislist.remove(\"melon\")")
+try:
+    thislist.remove("melon")
+    print("NOOO, I'M NOT AN OUTPUT IF AN ERROR RAISES")
+except:
+    print("No melon found")
+else:
+    print("Eating melon. . . \nDone")
+finally:
+    print("List: ", thislist)
+    print()
+
+print("thislist.pop() and thislist.pop(0)")
+thislist.pop() # Deletes last item
+thislist.pop(0) # Deletes first item
+print("List: ", thislist)
+print()
+
+del thislist[0] # Deletes first item
+print("del thislist[0]: ", thislist)
+print()
+
+print("del thislist")
+del thislist
+try:
+    print("List: ", thislist)
+except:
+    print("Exception raised trying to display thislist")
+finally:
+    print()
+
+thislist = ['orange', 'apple', 'blackcurrant', 'cherry', 'banana']
+
+print("thislist.clear()")
+thislist.clear()
+print("List: ", thislist)
+print()
+
+# Copy a list
+
+# You cannot copy a list simply by typing list2 = list1,
+# because: list2 will only be a reference to list1,
+# and changes made in list1 will automatically also be made
+# in list2.
+
+print("myOtherList = thislist")
+thislist = ['orange', 'apple', 'blackcurrant', 'cherry', 'banana']
+myOtherList = thislist
+print("thislist.clear()")
+thislist.clear()
+#del thislist # Using this statement, we won't notice difference
+              # This is due to myOtherList, because it is referencing
+              # that place in memory, and so the garbage collector don't
+              # delete its content. So, 
+              # myOtherList = thislist
+              # cause that both of the variable point to the same place
+              # in memory.
+try:
+    print("List: ", myOtherList)
+except:
+    print("Exception raised trying to display myOtherList")
+finally:
+    print()
+
+print("myOtherList = thislist.copy()")
+thislist = ['orange', 'apple', 'blackcurrant', 'cherry', 'banana']
+myOtherList = thislist.copy() # <<< copy method >>>
+# also works
+# myOtherList = list(thislist)
+print("thislist.clear()")
+thislist.clear()
+try:
+    print("List: ", myOtherList)
+except:
+    print("Exception raised trying to display myOtherList")
+finally:
+    print()
+
+
+# Join two lists
+
+thislist = list(myOtherList)
+myOtherList.pop() # Deletes last item of myOtherList
+thislist.pop(0) # Deletes first item of thislist
+print("thislist: ", thislist)
+print("myOtherList: ", myOtherList)
+duplicatedList = thislist + myOtherList
+print("duplicatedList: ", duplicatedList)
+print()
+thislist.clear()
+myOtherList.clear()
+print("[thislist and myOtherList cleared]\nduplicatedList: ", duplicatedList)
+print()
+
+print("append() method")
+for x in duplicatedList:
+    if x == "apple" or x == "banana" or x == "cherry":
+        thislist.append(x)
+    else:
+        myOtherList.append(x)
+print("thislist: ", thislist)
+print("myOtherList: ", myOtherList)
+print("duplicatedList: ", duplicatedList)
+print()
+
+print("extend() method | \"thislist.extend(myOtherList)\"")
+thislist.extend(myOtherList)
+print("thislist: ", thislist)
+thislist.sort()
+duplicatedList.sort()
+print("thislist(sorted):\t", thislist)
+print("duplicatedList(sorted):\t", duplicatedList)
+print()
+
+# list() constructor
+print("list() constructor")
+myOtherList = list(("apple", "banana", "cherry"))
+print("myOtherList:\t", myOtherList)
