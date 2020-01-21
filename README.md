@@ -1,3 +1,3 @@
 # practice
 
-Stuff that I do to understand and practice things
+Stuff that I do to understand things
