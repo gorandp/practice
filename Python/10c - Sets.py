@@ -98,7 +98,7 @@ print("set3: ", set3)
 print("-- set1.update(set2) method [will exclude any duplicate items]")
 set1.update(set2)
 print("set1: ", set1)
-
+print()
 
 # set() constructor
 print(">>>> set() constructor <<<<")
