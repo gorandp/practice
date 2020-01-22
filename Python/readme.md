@@ -266,6 +266,23 @@ setdefault() | Returns the value of the specified key. If the key does not exist
 update() | Updates the dictionary with the specified key-value pairs
 values() | Returns a list of all the values in the dictionary
 
+## 11 - Python Conditions and If statements
+
+Python supports the usual logical conditions from mathematics:
+
+- Equals: a == b
+- Not Equals: a != b
+- Less than: a < b
+- Less than or equal to: a <= b
+- Greater than: a > b
+- Greater than or equal to: a >= b
+
+These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+### The pass Statement
+
+if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
 ## For future reading
 
 - [Random module reference][3]
