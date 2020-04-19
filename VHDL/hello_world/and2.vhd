@@ -1,0 +1,3 @@
+library IEEE;
+
+entity
