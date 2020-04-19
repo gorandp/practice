@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE caneda>
+<caneda version="0.3.1">
+    <components>
+        <component name="Transient Simulation" library="Simulations" pos="300,-40" transform="1,0,0,1,0,0">
+            <properties pos="-21,21">
+                <property name="label" value="Sim1" visible="true"/>
+                <property name="tmax" value="" visible="false"/>
+                <property name="tstart" value="0" visible="false"/>
+                <property name="tstep" value="1u" visible="true"/>
+                <property name="tstop" value="2m" visible="true"/>
+                <property name="uic" value="" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source Sinusoidal" library="Sources" pos="-100,0" transform="1,0,0,1,0,0">
+            <properties pos="-86,-26">
+                <property name="Va" value="5" visible="true"/>
+                <property name="Voff" value="0" visible="false"/>
+                <property name="freq" value="1k" visible="true"/>
+                <property name="label" value="V2" visible="true"/>
+                <property name="td" value="0.0" visible="false"/>
+                <property name="theta" value="0.0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Opamp" library="Active" pos="60,-60" transform="1,0,0,1,0,0">
+            <properties pos="-34,21">
+                <property name="Av" value="100k" visible="true"/>
+                <property name="GBW" value="10Meg" visible="false"/>
+                <property name="Rin" value="100Meg" visible="false"/>
+                <property name="Rout" value="0" visible="false"/>
+                <property name="label" value="U1" visible="true"/>
+                <property name="model" value="OPAMP" visible="false"/>
+            </properties>
+        </component>
+    </components>
+    <ports>
+        <port name="Ground" pos="-100,80"/>
+        <port name="out" pos="200,-60"/>
+    </ports>
+    <wires>
+        <wire start="-100,30" end="-100,80"/>
+        <wire start="150,-60" end="200,-60"/>
+        <wire start="150,-60" end="90,-60"/>
+        <wire start="150,30" end="150,-60"/>
+        <wire start="-10,30" end="150,30"/>
+        <wire start="-10,-50" end="-10,30"/>
+        <wire start="30,-50" end="-10,-50"/>
+        <wire start="-100,-70" end="30,-70"/>
+        <wire start="-100,-30" end="-100,-70"/>
+    </wires>
+</caneda>
