@@ -2,3 +2,6 @@
 *.net
 *.raw
 *.csv
+
+__pycache__/
+*.pyc
