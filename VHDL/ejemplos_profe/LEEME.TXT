@@ -1,14 +1,14 @@
 Este directorio contiene las descripciones VHDL de los ejemplos que aparecen
-en el libro.
+en el libro: VHDL Lenguaje para SÃ­ntesis y modelado de circuitos.
 
 
-CAPÍTULO 3: Introducción al lenguaje VHDL
+CAPï¿½TULO 3: Introducciï¿½n al lenguaje VHDL
 ----------
 
-multiplexor.vhd  Ejemplo que aparece a lo largo del capítulo.
+multiplexor.vhd  Ejemplo que aparece a lo largo del capï¿½tulo.
 
 
-CAPÍTULO 5: Descripción flujo de datos
+CAPï¿½TULO 5: Descripciï¿½n flujo de datos
 ----------
 
 compflujo.vhd    Ejemplo 5.1 (pag. 56): Comparador usando flujo de datos.
@@ -16,57 +16,57 @@ desplaza.vhd     Ejemplo 5.2 (pag. 61): Desplazador usando flujo.
 demux.vhd        Ejemplo 5.3 (pag. 62): Demultiplexor.
 
 
-CAPÍTULO 6: Descripción algorítmica comportamental
+CAPï¿½TULO 6: Descripciï¿½n algorï¿½tmica comportamental
 ----------
 
 compalgo.vhd     Ejemplo 6.1 (pag. 66 y 67): Comparador usando secuencia.
 ornousar.vhd     Ejemplo 6.2 (pag. 73): Puerta or complicada.
-botmotor.vhd     Ejemplo 6.3 (pag. 81): Motor con botón usando registro. 
+botmotor.vhd     Ejemplo 6.3 (pag. 81): Motor con botï¿½n usando registro. 
 
 
-CAPÍTULO 7: Descripción estructural
+CAPï¿½TULO 7: Descripciï¿½n estructural
 ----------
 
-multiestruc.vhd  Ejemplo 7.1 (pag. 93) Versión estructural del multiplexor 5.1
+multiestruc.vhd  Ejemplo 7.1 (pag. 93) Versiï¿½n estructural del multiplexor 5.1
 
 
-CAPÍTULO 9: Conceptos avanzados en VHDL
+CAPï¿½TULO 9: Conceptos avanzados en VHDL
 ----------
 
 pila.vhd:        Ejemplo 9.1 (pag. 114): Modelado de una pila.
-testpila.vhd     Ejemplo 9,2 (pag. 119): Utilización de ficheros para banco
+testpila.vhd     Ejemplo 9,2 (pag. 119): Utilizaciï¿½n de ficheros para banco
                   de pruebas.
 pila_paquete.vhd Paquete con la entidad 'pila' para usarlo con el ejemplo
                   anterior.
 
 
-CAPÍTULO 10: VHDL para simulación
+CAPï¿½TULO 10: VHDL para simulaciï¿½n
 -----------
 
 registro_d.vhd   Ejemplo 10.1 y 10.2 (pag. 130 y 134) Registro D con retrasos
-                  y aviso de violación.
+                  y aviso de violaciï¿½n.
 regdesp.vhd      Ejemplo 10.3 (pag. 136) Modelo del registro de desplazamiento.
 test1_shift.vhd  (pag. 141) Primer banco de pruebas para este ejemplo (tabular).
 test2_shift.vhd  (pag. 141) Segundo banco de pruebas para este ejemplo
                   (con ficheros).
-mi_io.vhd        (pag. 140) Definición de procedimientos de I/O para el banco
+mi_io.vhd        (pag. 140) Definiciï¿½n de procedimientos de I/O para el banco
                   anterior.
-shift_ve.inp     (pag. 140) Fichero de estímulos para el banco anterior.
-test3_shift.vhd  (pag. 143) El último ejemplo de banco de pruebas (algorítmico).
+shift_ve.inp     (pag. 140) Fichero de estï¿½mulos para el banco anterior.
+test3_shift.vhd  (pag. 143) El ï¿½ltimo ejemplo de banco de pruebas (algorï¿½tmico).
 
 
-CAPÍTULO 12: Utilización del lenguaje VHDL
+CAPï¿½TULO 12: Utilizaciï¿½n del lenguaje VHDL
 -----------
 
-boton.vhd         Ejemplo 12.1 (pag. 169) El motor con botón usando máquinas
+boton.vhd         Ejemplo 12.1 (pag. 169) El motor con botï¿½n usando mï¿½quinas
                    de estados.
-semaforos.vhd     Ejemplo 12.2 (pag. 173) Los semáforos.
+semaforos.vhd     Ejemplo 12.2 (pag. 173) Los semï¿½foros.
 ascensor.vhd      Ejemplo 12.3 (pag. 176) El ascensor.
-rom.vhd           Ejemplo 12.4 (pag. 178-179) La rom con patrón de test.
-pocesador.vhd     Ejemplo 12.5 (pag. 180) El microprocesador con patrón de test.
-lavadora.vhd      Ejemplo 12.6 (pag. 186) Primera versión que latchea la salida.
-lavadora2.vhd     Ejemplo 12.6 (pag. 190) Segunda versión algo más complicada
+rom.vhd           Ejemplo 12.4 (pag. 178-179) La rom con patrï¿½n de test.
+pocesador.vhd     Ejemplo 12.5 (pag. 180) El microprocesador con patrï¿½n de test.
+lavadora.vhd      Ejemplo 12.6 (pag. 186) Primera versiï¿½n que latchea la salida.
+lavadora2.vhd     Ejemplo 12.6 (pag. 190) Segunda versiï¿½n algo mï¿½s complicada
                    pero que se sintetiza mejor.
-concurso.vhd      Ejemplo 12.7 (pag. 193) Concurso de televisión.
+concurso.vhd      Ejemplo 12.7 (pag. 193) Concurso de televisiï¿½n.
 pinball.vhd       Ejemplo 12.8 (pag. 197) El pin-ball.
 pinball2.vhd      Ejemplo 12.8 (pag. 200) El pin-ball modificado.
