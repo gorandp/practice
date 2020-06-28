@@ -1,4 +1,4 @@
-# Mermaid
+# [Mermaid](https://mermaid-js.github.io/mermaid/)
 
 ```mermaid
 sequenceDiagram
