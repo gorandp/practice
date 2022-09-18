@@ -1,4 +1,7 @@
-import 'dart:ffi';
+// https://youtu.be/kEPCVbpz70g
+
+// No sé para que puse este import acá
+// import 'dart:ffi';
 
 demoVariables() {
   // - Todo son objectos en Dart.
