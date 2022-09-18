@@ -7,3 +7,15 @@ __pycache__/
 *.pyc
 
 .vscode/
+
+# VHDL
+VHDL/**/*.qpf
+VHDL/**/*.qsf
+VHDL/**/*.bak
+VHDL/**/*.qws
+VHDL/**/*.vwf
+VHDL/**/*.zip
+VHDL/**/simulation
+VHDL/**/output_files
+VHDL/**/incremental_db
+VHDL/**/db

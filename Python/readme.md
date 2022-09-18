@@ -319,6 +319,34 @@ Statements | Description
 
 To loop through a set of code a specified number of times, we can use the ```range()``` function. The ```range()``` function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
+## 13 - Functions
+
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
+Example:
+
+```python
+def my_function(arg1, arg2):
+  print("Hello from a function")
+  print("Argument 1: ", arg1)
+  print("Argument 2: ", arg2)
+```
+
+### Parameters or Arguments?
+
+The terms parameter and argument can be used for the same thing: information that are passed into a function.
+
+> From a function's perspective:
+>
+>> A **parameter** is the variable listed inside the parentheses in the function definition.
+>
+>> An **argument** is the value that are sent to the function when it is called.
+
+
 ## For future reading
 
 - [Random module reference][3]

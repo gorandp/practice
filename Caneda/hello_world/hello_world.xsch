@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<!DOCTYPE caneda>
+<caneda version="0.3.1">
+    <components>
+        <component name="Voltage Source" library="Sources" pos="-370,1800" transform="1,0,0,1,0,0">
+            <properties pos="-126,-16">
+                <property name="Vac" value="1" visible="false"/>
+                <property name="Vdc" value="370.7149" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="ETH" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-320,1720" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="351.1245" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="RTH" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,1880" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="750" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R5" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Current Source" library="Sources" pos="-740,50" transform="0,1,-1,0,0,0">
+            <properties pos="29,-6">
+                <property name="Iac" value="1" visible="false"/>
+                <property name="Idc" value="5m" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="I2" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-1410,980" transform="1,0,0,1,0,0">
+            <properties pos="-26,34">
+                <property name="Vac" value="1" visible="false"/>
+                <property name="Vdc" value="24" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V3" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-1320,1170" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-1120,1000" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-1260,990" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-1320,900" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-210,910" transform="0,-1,1,0,0,0">
+            <properties pos="-26,34">
+                <property name="Vac" value="12" visible="false"/>
+                <property name="Vdc" value="12" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V4" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-360,1180" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-160,1010" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,1000" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-360,910" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Current Source" library="Sources" pos="530,1100" transform="0,1,-1,0,0,0">
+            <properties pos="-21,34">
+                <property name="Iac" value="1" visible="false"/>
+                <property name="Idc" value="2" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="I2" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="370,1180" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="570,1010" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="430,1000" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="370,910" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-990,-60" transform="1,0,0,1,0,0">
+            <properties pos="-86,-16">
+                <property name="Vac" value="1" visible="false"/>
+                <property name="Vdc" value="24" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V3" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-750,-140" transform="0,-1,1,0,0,0">
+            <properties pos="24,-16">
+                <property name="Vac" value="12" visible="false"/>
+                <property name="Vdc" value="12" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V4" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-900,50" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="750" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R5" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-900,130" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-700,-40" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-840,-50" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-900,-140" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,550" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-100,380" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-240,370" transform="0,-1,1,0,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,280" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,10" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="750" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R5" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,90" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="1k" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R6" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-240,-90" transform="0,-1,1,0,0,0">
+            <properties pos="20,10">
+                <property name="R" value="170" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R3" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-100,-80" transform="0,-1,1,0,0,0">
+            <properties pos="16,16">
+                <property name="R" value="25" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R2" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Resistor" library="Passive" pos="-300,-180" transform="1,0,0,1,0,0">
+            <properties pos="-24,6">
+                <property name="R" value="220" visible="true"/>
+                <property name="dtemp" value="1.0" visible="false"/>
+                <property name="label" value="R1" visible="true"/>
+                <property name="m" value="1.0" visible="false"/>
+                <property name="noisy" value="0" visible="false"/>
+                <property name="scale" value="1.0" visible="false"/>
+                <property name="tc1" value="0.0" visible="false"/>
+                <property name="tc2" value="0.0" visible="false"/>
+                <property name="temp" value="26.5" visible="false"/>
+            </properties>
+        </component>
+        <component name="Current Source" library="Sources" pos="-140,10" transform="0,1,-1,0,0,0">
+            <properties pos="19,24">
+                <property name="Iac" value="1" visible="false"/>
+                <property name="Idc" value="2" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="I2" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-390,-100" transform="1,0,0,1,0,0">
+            <properties pos="24,-16">
+                <property name="Vac" value="1" visible="false"/>
+                <property name="Vdc" value="24" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V3" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Voltage Source" library="Sources" pos="-150,-180" transform="0,-1,1,0,0,0">
+            <properties pos="-26,-26">
+                <property name="Vac" value="12" visible="false"/>
+                <property name="Vdc" value="12" visible="true"/>
+                <property name="f1mag" value="1.0" visible="false"/>
+                <property name="f1phase" value="0" visible="false"/>
+                <property name="f2mag" value="1.0" visible="false"/>
+                <property name="f2phase" value="0" visible="false"/>
+                <property name="label" value="V4" visible="true"/>
+                <property name="phase" value="0" visible="false"/>
+            </properties>
+        </component>
+        <component name="Transient Simulation" library="Simulations" pos="30,-110" transform="1,0,0,1,0,0">
+            <properties pos="-21,21">
+                <property name="label" value="Sim" visible="true"/>
+                <property name="tmax" value="" visible="false"/>
+                <property name="tstart" value="0" visible="false"/>
+                <property name="tstep" value="1u" visible="true"/>
+                <property name="tstop" value="1m" visible="true"/>
+                <property name="uic" value="" visible="false"/>
+            </properties>
+        </component>
+    </components>
+    <ports>
+        <port name="Ground" pos="-1410,1230"/>
+        <port name="Ground" pos="-450,1240"/>
+        <port name="Ground" pos="280,1240"/>
+        <port name="Ground" pos="-990,190"/>
+        <port name="Ground" pos="-390,150"/>
+    </ports>
+    <wires>
+        <wire start="-230,1880" end="-230,1720"/>
+        <wire start="-370,1830" end="-370,1880"/>
+        <wire start="-370,1720" end="-370,1770"/>
+        <wire start="-230,1720" end="-280,1720"/>
+        <wire start="-280,1880" end="-230,1880"/>
+        <wire start="-320,1880" end="-370,1880"/>
+        <wire start="-300,1720" end="-280,1720"/>
+        <wire start="-370,1720" end="-340,1720"/>
+        <wire start="490,910" end="550,910"/>
+        <wire start="280,960" end="280,1020"/>
+        <wire start="-450,960" end="-450,1020"/>
+        <wire start="-1200,900" end="-1140,900"/>
+        <wire start="-1260,1090" end="-1300,1090"/>
+        <wire start="-1120,1090" end="-1120,1020"/>
+        <wire start="-1120,900" end="-1140,900"/>
+        <wire start="-1410,1170" end="-1340,1170"/>
+        <wire start="-1300,1170" end="-1120,1170"/>
+        <wire start="-1340,1090" end="-1410,1090"/>
+        <wire start="-1410,1010" end="-1410,1090"/>
+        <wire start="-1410,1230" end="-1410,1170"/>
+        <wire start="-1130,1090" end="-1120,1090"/>
+        <wire start="-1120,1170" end="-1120,1090"/>
+        <wire start="-1200,900" end="-1260,900"/>
+        <wire start="-1410,950" end="-1410,910"/>
+        <wire start="-1260,1010" end="-1260,1090"/>
+        <wire start="-1410,900" end="-1410,910"/>
+        <wire start="-1340,900" end="-1410,900"/>
+        <wire start="-1260,1090" end="-1190,1090"/>
+        <wire start="-1260,970" end="-1260,900"/>
+        <wire start="-1120,980" end="-1120,900"/>
+        <wire start="-1260,900" end="-1300,900"/>
+        <wire start="-1410,1090" end="-1410,1170"/>
+        <wire start="-300,1100" end="-340,1100"/>
+        <wire start="-160,1100" end="-160,1030"/>
+        <wire start="-160,910" end="-180,910"/>
+        <wire start="-450,1180" end="-380,1180"/>
+        <wire start="-340,1180" end="-160,1180"/>
+        <wire start="-380,1100" end="-450,1100"/>
+        <wire start="-450,1020" end="-450,1100"/>
+        <wire start="-450,1240" end="-450,1180"/>
+        <wire start="-170,1100" end="-160,1100"/>
+        <wire start="-160,1180" end="-160,1100"/>
+        <wire start="-240,910" end="-300,910"/>
+        <wire start="-450,960" end="-450,920"/>
+        <wire start="-300,1020" end="-300,1100"/>
+        <wire start="-450,910" end="-450,920"/>
+        <wire start="-380,910" end="-450,910"/>
+        <wire start="-300,1100" end="-230,1100"/>
+        <wire start="-300,980" end="-300,910"/>
+        <wire start="-160,990" end="-160,910"/>
+        <wire start="-300,910" end="-340,910"/>
+        <wire start="-450,1100" end="-450,1180"/>
+        <wire start="430,1100" end="390,1100"/>
+        <wire start="570,1100" end="570,1030"/>
+        <wire start="570,910" end="550,910"/>
+        <wire start="280,1180" end="350,1180"/>
+        <wire start="390,1180" end="570,1180"/>
+        <wire start="350,1100" end="280,1100"/>
+        <wire start="280,1020" end="280,1100"/>
+        <wire start="280,1240" end="280,1180"/>
+        <wire start="560,1100" end="570,1100"/>
+        <wire start="570,1180" end="570,1100"/>
+        <wire start="490,910" end="430,910"/>
+        <wire start="280,960" end="280,920"/>
+        <wire start="430,1020" end="430,1100"/>
+        <wire start="280,910" end="280,920"/>
+        <wire start="350,910" end="280,910"/>
+        <wire start="430,1100" end="500,1100"/>
+        <wire start="430,980" end="430,910"/>
+        <wire start="570,990" end="570,910"/>
+        <wire start="430,910" end="390,910"/>
+        <wire start="280,1100" end="280,1180"/>
+        <wire start="-840,50" end="-880,50"/>
+        <wire start="-700,50" end="-700,-20"/>
+        <wire start="-700,-140" end="-720,-140"/>
+        <wire start="-990,130" end="-920,130"/>
+        <wire start="-880,130" end="-700,130"/>
+        <wire start="-920,50" end="-990,50"/>
+        <wire start="-990,-30" end="-990,50"/>
+        <wire start="-990,190" end="-990,130"/>
+        <wire start="-710,50" end="-700,50"/>
+        <wire start="-700,130" end="-700,50"/>
+        <wire start="-780,-140" end="-840,-140"/>
+        <wire start="-990,-90" end="-990,-130"/>
+        <wire start="-840,-30" end="-840,50"/>
+        <wire start="-990,-140" end="-990,-130"/>
+        <wire start="-920,-140" end="-990,-140"/>
+        <wire start="-840,50" end="-770,50"/>
+        <wire start="-840,-70" end="-840,-140"/>
+        <wire start="-700,-60" end="-700,-140"/>
+        <wire start="-840,-140" end="-880,-140"/>
+        <wire start="-990,50" end="-990,130"/>
+        <wire start="-110,10" end="-100,10"/>
+        <wire start="-240,10" end="-170,10"/>
+        <wire start="-390,280" end="-390,470"/>
+        <wire start="-180,280" end="-120,280"/>
+        <wire start="-100,470" end="-100,400"/>
+        <wire start="-240,470" end="-280,470"/>
+        <wire start="-100,280" end="-120,280"/>
+        <wire start="-390,550" end="-320,550"/>
+        <wire start="-280,550" end="-100,550"/>
+        <wire start="-320,470" end="-390,470"/>
+        <wire start="-390,610" end="-390,550"/>
+        <wire start="-100,550" end="-100,470"/>
+        <wire start="-180,280" end="-240,280"/>
+        <wire start="-110,470" end="-100,470"/>
+        <wire start="-240,390" end="-240,470"/>
+        <wire start="-320,280" end="-390,280"/>
+        <wire start="-170,470" end="-240,470"/>
+        <wire start="-240,350" end="-240,280"/>
+        <wire start="-100,360" end="-100,280"/>
+        <wire start="-240,280" end="-280,280"/>
+        <wire start="-390,470" end="-390,550"/>
+        <wire start="-390,-70" end="-390,10"/>
+        <wire start="-390,-130" end="-390,-170"/>
+        <wire start="-240,-70" end="-240,10"/>
+        <wire start="-390,150" end="-390,90"/>
+        <wire start="-100,10" end="-100,-60"/>
+        <wire start="-100,-100" end="-100,-180"/>
+        <wire start="-100,-180" end="-120,-180"/>
+        <wire start="-390,90" end="-320,90"/>
+        <wire start="-280,90" end="-100,90"/>
+        <wire start="-100,90" end="-100,10"/>
+        <wire start="-320,10" end="-390,10"/>
+        <wire start="-390,10" end="-390,90"/>
+        <wire start="-240,-110" end="-240,-180"/>
+        <wire start="-180,-180" end="-240,-180"/>
+        <wire start="-240,-180" end="-280,-180"/>
+        <wire start="-240,10" end="-280,10"/>
+        <wire start="-320,-180" end="-390,-180"/>
+        <wire start="-390,-180" end="-390,-170"/>
+    </wires>
+    <paintings>
+        <painting name="text" pos="-330,1680" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-350,1710" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-330,1870" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-310,1840" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-500,1640" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Circuito equivalente al original&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="520,990" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R2&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="380,980" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R3&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="340,1140" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R6&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;''' = I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-70,0" pos="340,1170" transform="-1,0,0,-1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,-70,0" pos="560,970" transform="0,-1,1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,-70,0" pos="420,1030" transform="0,1,-1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-340,990" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;0 A&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-310,970" transform="0,1,-1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-1310,980" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;0 A&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-1280,960" transform="0,1,-1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="350,1060" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-380,1070" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-1340,1060" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-400,1170" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-400,1140" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R6&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'' = I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-240,1000" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R2&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'' = I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-70,0" pos="-170,1050" transform="0,1,1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-1350,1130" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R6&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;' = I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-80,0" pos="-1290,1160" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-1140,970" transform="0,1,-1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-1200,990" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R2&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;' = I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,80,0" pos="-1360,890" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-1340,860" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-80,0" pos="-330,900" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-380,870" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-740,-60" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-910,-180" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-880,-60" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-910,10" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-910,100" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R6&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-710,-10" transform="0,-1,1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-850,-80" transform="0,1,-1,0,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-930,-150" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-930,40" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="arrow" line="0,0,70,0" pos="-930,120" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+        <painting name="text" pos="-330,420" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;R&lt;span style=&quot; vertical-align:sub;&quot;&gt;th&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-40,0" pos="-300,450" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="12,20"/>
+            <pen width="1" color="#808080" style="1"/>
+            <brush color="#000000" style="1"/>
+        </painting>
+        <painting name="line" line="0,0,0,-20" pos="-300,470" transform="1,0,0,1,0,0">
+            <pen width="1" color="#808080" style="1"/>
+        </painting>
+        <painting name="text" pos="-290,480" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;B&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-330,480" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-1370,1070" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;+&#9;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-410,1080" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;+&#9;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="320,1080" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;+&#9;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-1000,-220" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sentidos y corrientes de rama&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-400,-250" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Circuito original&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-390,230" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pasivado de fuentes para cálculo de R&lt;span style=&quot; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-1410,830" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cálculo de E&lt;span style=&quot; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;'&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="-450,840" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cálculo de E&lt;span style=&quot; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;''&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="280,840" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cálculo de E&lt;span style=&quot; vertical-align:sub;&quot;&gt;TH&lt;/span&gt;'''&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="text" pos="360,870" transform="1,0,0,1,0,0">
+            <properties text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; color:#ef2929; vertical-align:sub;&quot;&gt;R1&lt;/span&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;'''&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+        </painting>
+        <painting name="arrow" line="0,0,-80,0" pos="400,900" transform="1,0,0,1,0,0">
+            <properties headStyle="1" headSize="5,16"/>
+            <pen width="1" color="#ef2929" style="1"/>
+            <brush color="#ef2929" style="1"/>
+        </painting>
+    </paintings>
+</caneda>
