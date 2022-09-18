@@ -1,6 +1,6 @@
 import 'dart:ffi';
 
-demoVariables(){
+demoVariables() {
   // - Todo son objectos en Dart.
   // - Todas las variables contienen referencias a objetos.
   // - Las variables solo pueden referirse a objetos del tipo concordante
@@ -22,11 +22,10 @@ demoVariables(){
   print(s2);
   print(comilla_simple);
   print(comilla_doble);
-  print(a);
+  // print(a); // me tira error ahora
 }
 
-demoVarDynamicNum(){
-
+demoVarDynamicNum() {
   // al poner 'var' se infiere el tipo (del literal o del tipo de retorno, etc)
   var a = 7.0;
   // Existe un tipo especial para "cualquier cosa"
@@ -45,10 +44,9 @@ demoVarDynamicNum(){
   num y = c;
   print(x);
   print(y);
-
 }
 
-demoConversion(){
+demoConversion() {
   // conversión numérico -> string
   int a = 5;
   double b = 3.1415;
@@ -70,20 +68,20 @@ demoConversion(){
   print(e);
 }
 
-interpolacionStrings(){
+interpolacionStrings() {
   // Interpolación de strings
   int pesos = 4;
-  String mensaje = "Faltan ${pesos+1} pe pa compra ese vi";
+  String mensaje = "Faltan ${pesos + 1} pe pa compra ese vi";
   pesos += 1;
   mensaje = "Faltan $pesos pe pa compra ese vi"; // sin las llaves
   print(mensaje);
 }
 
-stringLargos(){
+stringLargos() {
   // Literales de string seguidos se pegan
   var texto = 'En un lugar de la mancha '
-    'de cuyo nombre no queiro acordarme '
-    'vivía un hidalgo...';
+      'de cuyo nombre no queiro acordarme '
+      'vivía un hidalgo...';
 
   // el + junta strings
   var s = 'James ' + 'Bond';
@@ -99,7 +97,7 @@ Un texto largo con varias líneas
   print(s);
 }
 
-condicionesBooleanas(){
+condicionesBooleanas() {
   // En un 'if' solo pueden ir 'bool' o bien 'dynamic' (que debería ser 'bool')
   var a;
   if (a != null) {
@@ -112,14 +110,14 @@ condicionesBooleanas(){
   }
 }
 
-demoListas(){
+demoListas() {
   List<int> primos = [2, 3, 5, 7, 11, 13];
   List<dynamic> cosas = [2, true, 'hola', 2.15, [], null];
   var cosas2 = [2, true, 'hola'];
   print(primos);
   print(cosas);
   print(cosas);
-  
+
   var nums = [1, 2, 3];
   nums.add(4);
   // nums.add('5'); no se puede agregar un elemento que no sea entero, infiere que es una lista de enteros
@@ -135,39 +133,41 @@ demoListas(){
   // palabras.add(5); no se puede agregar un 'int' a una lista de 'String'
   palabras.add('palabrita');
 
-
   // Acceder a las casillas de una lista (como en C, C++, Java, Javascript, etc.)
   print(primos[1]);
-  print(nums[nums.length-1]); // ultimo elemento
+  print(nums[nums.length - 1]); // ultimo elemento
   print(cosas[2]);
 }
 
-collectionIfFor(){
+collectionIfFor() {
   bool larga = false;
-  var L = [
-    1,
-    2,
-    3,
-    if (larga) 4,
-    5
-  ];
+  var L = [1, 2, 3, if (larga) 4, 5];
   // if (larga) {
   //   L.add(4);
   // }
   print(L);
 
-
   int max = 10;
-  var M = [-1, for (int i = 0; i < max; i++) i+1, 1]; // se pueden meter expresiones dentro de las lsitas
+  var M = [
+    -1,
+    for (int i = 0; i < max; i++) i + 1,
+    1
+  ]; // se pueden meter expresiones dentro de las lsitas
   // for (int i = 0; i < max; i++) {
   //   M.add(i+1);
   // }
   print(M);
 }
 
-demoSets(){
+demoSets() {
   Set<int> primos = {2, 3, 5, 7, 11, 13};
-  Set<dynamic> cosas = {null, 'cosa1', 3, true, [1, 3]};
+  Set<dynamic> cosas = {
+    null,
+    'cosa1',
+    3,
+    true,
+    [1, 3]
+  };
   var numeros = {1, 2, 3, 4};
 
   Set<String> conjunto_vacio = {};
@@ -179,10 +179,10 @@ demoSets(){
   print(numeros);
 
   numeros.add(5);
-  numeros.addAll({6, 7, 8 , 9});
+  numeros.addAll({6, 7, 8, 9});
   numeros.addAll([10, 11, 12, 13]);
 
-  if(numeros.contains(13)){
+  if (numeros.contains(13)) {
     print("tiene 13!!");
   }
 
@@ -191,16 +191,8 @@ demoSets(){
 }
 
 demoMaps() {
-  var M = {
-    'nombre': 'James',
-    'apellido': 'Bond',
-    'edad': 27
-  };
-  Map<int, String> numeros = {
-    1: 'uno',
-    2: 'dos',
-    3: 'tres'
-  };
+  var M = {'nombre': 'James', 'apellido': 'Bond', 'edad': 27};
+  Map<int, String> numeros = {1: 'uno', 2: 'dos', 3: 'tres'};
   Map<dynamic, dynamic> cosas = {
     2: 'dos',
     'dos': 2,
@@ -224,5 +216,4 @@ demoMaps() {
   print(cosas);
 }
 
-void main() {
-}
+void main() {}
